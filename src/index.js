@@ -1,9 +1,15 @@
+import './index.css';
+
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+
+import {
+  applyPolyfills,
+  defineCustomElements,
+} from 'h8k-components/loader';
+
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';
-import {applyPolyfills, defineCustomElements} from 'h8k-components/loader';
 
 const ARTICLES = [
   {
