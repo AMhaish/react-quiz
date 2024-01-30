@@ -2,8 +2,6 @@
 
 Create a basic article sorting application, as shown below. Some core functionalities have already been implemented, but the application is not complete. Application requirements are given below, and the finished application must pass all of the unit tests.
 
-![sorting-app](https://hrcdn.net/s3_pub/istreet-assets/YkVzgbGgMj0cfT9P97s8jg/sorting-articles.gif)
-
 The app has one component named Articles. The list of articles to be displayed is already provided in the app.
 
 The app must have the following functionalities:
@@ -33,6 +31,7 @@ The following data-testid attributes are required in the component for the tests
 
 - React Version: 16.13.1
 - Default Port: 8000
+- NodeJS Version: 16
 
 ## Project Specifications 
 
@@ -52,3 +51,16 @@ npm install
 ```bash
 npm test
 ```
+If the test is passed using the previous command, this indicates that you completed the application correctly
+
+**Steps to start solving the quiz**
+Please clone the repo to your local PC, create a new branch using the next command and by naming the branch with your name
+```bash
+git branch <your-name>
+```
+After solving the problem, commit your changes and push them to the remote branch by using the next commands:
+```bash
+git commit -m "Finish solving the quiz"
+git push --set-upstream-to origin/<your-name>
+```
+
